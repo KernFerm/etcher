@@ -98,7 +98,7 @@
     "ts-loader": "^9.5.1",
     "ts-node": "^10.9.2",
     "tslib": "2.6.2",
-    "typescript": "^5.3.3",
+    "typescript": "^6.0.3",
     "url-loader": "4.1.1",
     "wdio-electron-service": "^6.4.1",
     "xvfb-maybe": "^0.2.1"
