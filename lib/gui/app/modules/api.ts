@@ -168,12 +168,14 @@ async function connectToChildProcess(
 
 			ws.on('message', (jsonData: any) => {
 				const data = JSON.parse(jsonData);
-				const message = messagesHandler[data.type];
-				if (message) {
-					message(data.payload);
-				} else {
-					throw new Error(`Unknown message type: ${data.type}`);
+				if (Object.prototype.hasOwnProperty.call(messagesHandler, data.type)) {
+					const message = messagesHandler[data.type];
+					if (typeof message === 'function') {
+						message(data.payload);
+						return;
+					}
 				}
+				throw new Error(`Unknown message type: ${data.type}`);
 			});
 
 			// api to register more handlers with callbacks
