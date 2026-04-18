@@ -41,7 +41,7 @@ function checkLinuxBinary() {
 }
 
 function escapeDoubleQuotes(escapeString: string) {
-	return escapeString.replace(/"/g, '\\"');
+	return escapeString.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
 }
 
 export async function sudo(
