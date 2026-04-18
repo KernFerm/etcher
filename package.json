@@ -85,7 +85,7 @@
     "@wdio/spec-reporter": "^9.27.0",
     "@yao-pkg/pkg": "^5.11.5",
     "catch-uncommitted": "^2.0.0",
-    "chai": "4.3.10",
+    "chai": "6.2.2",
     "css-loader": "5.2.7",
     "electron": "39.8.5",
     "file-loader": "6.2.0",
