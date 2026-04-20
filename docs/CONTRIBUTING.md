@@ -17,11 +17,14 @@ Developing
 
 #### Common
 
-- [NodeJS](https://nodejs.org) (at least v16.11)
+- [NodeJS](https://nodejs.org) (at Newest Version)
 - [Python 3](https://www.python.org)
 - [jq](https://stedolan.github.io/jq/)
 - [curl](https://curl.haxx.se/)
 - [npm](https://www.npmjs.com/)
+
+
+> EVERYTHING IS GOING TO BE UPDATED TO NEWER VERSIONS. 
 
 ```sh
 pip install -r requirements.txt
