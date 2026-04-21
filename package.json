@@ -92,7 +92,7 @@
     "husky": "9.1.7",
     "native-addon-loader": "2.0.1",
     "node-loader": "^2.0.0",
-    "sinon": "^17.0.1",
+    "sinon": "^21.1.2",
     "string-replace-loader": "3.3.0",
     "style-loader": "4.0.0",
     "ts-loader": "^9.5.1",
