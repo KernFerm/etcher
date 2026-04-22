@@ -67,7 +67,7 @@
     "@electron-forge/maker-zip": "7.11.1",
     "@electron-forge/plugin-auto-unpack-natives": "7.11.1",
     "@electron-forge/plugin-webpack": "7.11.1",
-    "@reforged/maker-appimage": "3.3.2",
+    "@reforged/maker-appimage": "5.2.0",
     "@svgr/webpack": "8.1.0",
     "@types/chai": "5.2.3",
     "@types/debug": "^4.1.12",
