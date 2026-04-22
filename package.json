@@ -140,7 +140,7 @@
     ]
   },
   "engines": {
-    "node": ">=20 <21"
+    "node": "22"
   },
   "versionist": {
     "publishedAt": "2025-07-29T12:17:34.228Z"
