@@ -83,7 +83,7 @@
     "@wdio/cli": "^9.27.0",
     "@wdio/mocha-framework": "^8.36.1",
     "@wdio/spec-reporter": "^9.27.0",
-    "@yao-pkg/pkg": "^5.11.5",
+    "@yao-pkg/pkg": "^6.18.2",
     "catch-uncommitted": "^2.0.0",
     "chai": "6.2.2",
     "electron": "41.2.2",
