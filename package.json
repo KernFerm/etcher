@@ -52,7 +52,7 @@
     "redux": "5.0.1",
     "rendition": "35.2.0",
     "semver": "7.7.4",
-    "styled-components": "6.4.0",
+    "styled-components": "6.4.1",
     "sys-class-rgb-led": "3.0.1",
     "uuid": "14.0.0",
     "ws": "^8.16.0"
